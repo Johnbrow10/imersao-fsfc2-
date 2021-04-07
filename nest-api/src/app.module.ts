@@ -6,6 +6,7 @@ import { AppService } from './app.service';
 import { RoutesModule } from './routes/routes.module';
 //ES7 decorators
 @Module({
+  // importando as propriedades atraves do arquivo env para acessar o banco
   imports: [
     ConfigModule.forRoot(),
     RoutesModule,
